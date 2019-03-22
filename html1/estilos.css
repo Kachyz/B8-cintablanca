@@ -1,0 +1,68 @@
+a {
+  font-size: 30px;
+}
+
+a:visited{
+  color: red;
+}
+
+a:hover {
+  color: green;
+  background: black;
+  font-size: 40px;
+}
+
+p::first-line {
+  font-size: 80px;
+  text-decoration: underline;
+}
+
+td {
+  border: solid;
+  font-size: 50px;
+  padding: 0px 50px 50px 0px;
+}
+
+p{
+  border: solid;
+  margin: 50px;
+  padding: 30px;
+  border-width: 15px;
+}
+
+.row1 {
+  background: gray;
+  color: red;
+  font-style: oblique;
+}
+
+.row2 {
+  background: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+#parr1 {
+  font-style: oblique;
+  color: green;
+} 
+
+p {
+  font-size: 35px;
+  color: rgb(10, 100, 88)
+}
+
+span {
+  font-style: oblique;
+  color: rgb(255, 60, 150);
+  background: black;
+
+}
+
+.sp1 {
+  background: white;
+}
+
+div p span.sp1 {
+  background: gray;
+}
