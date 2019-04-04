@@ -1,0 +1,23 @@
+.altura-row{
+  height: 300px;
+}
+
+.altura-mitad{
+  height: 150px;
+}
+
+.blanco{
+  background: white;
+  border: dotted;
+}
+
+.gris{
+  background: gray;
+  border: solid
+}
+
+.gris:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px black;
+  z-index: 3;
+}
